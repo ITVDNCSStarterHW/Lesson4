@@ -10,8 +10,10 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            int operand1 = 429;
-            int operand2 = 10;
+            Console.WriteLine("Enter the first value");
+            double operand1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the second value");
+            double operand2 = Convert.ToDouble(Console.ReadLine());
             string sign;
 
             Console.WriteLine("Choose operation");
